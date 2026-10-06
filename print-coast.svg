@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="dot-large" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.2" cy="2.5" r="2.05" fill="#141816"/>
+    </pattern>
+    <pattern id="dot-small" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.7" r="1.05" fill="#141816"/>
+    </pattern>
+    <pattern id="dry-lines" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M1 0v12M4 0v7M9 4v8" stroke="#141816" stroke-width="1.25"/>
+    </pattern>
+    <filter id="rough" x="-4%" y="-10%" width="108%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".014 .037" numOctaves="3" seed="12" result="grain"/>
+      <feDisplacementMap in="SourceGraphic" in2="grain" scale="23" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="shore-fade">
+      <rect width="1600" height="900" fill="white"/>
+      <path d="M0 0h1600v255c-245-39-322-78-535-29C784 306 622 83 383 169 189 235 93 179 0 158Z" fill="black"/>
+    </mask>
+  </defs>
+  <g filter="url(#rough)">
+    <path d="M0 578C135 562 218 502 349 505c153 3 198 97 355 96 139-1 250-104 388-88 145 18 211 111 508 17V900H0Z" fill="#147a9a" opacity=".72" transform="translate(7 9)"/>
+    <path d="M0 578C135 562 218 502 349 505c153 3 198 97 355 96 139-1 250-104 388-88 145 18 211 111 508 17V900H0Z" fill="url(#dot-large)"/>
+    <path d="M0 661c135-6 199-51 349-47 163 4 221 103 379 88 124-11 206-80 352-80 170 0 273 66 520-9v287H0Z" fill="#141816" opacity=".83"/>
+    <path d="M0 732c146-39 276-8 417 19 139 26 202-17 346-7 156 11 224 46 369 26 186-26 286-24 468 8v122H0Z" fill="url(#dry-lines)" opacity=".7"/>
+    <path d="M1057-36c90 65 203 34 300 92 73 43 154 67 243 43V0h-543Z" fill="#147a9a" opacity=".68" transform="translate(6 4)"/>
+    <path d="M1057-36c90 65 203 34 300 92 73 43 154 67 243 43V0h-543Z" fill="url(#dot-large)"/>
+    <path d="M1293 0c32 115 147 88 217 190 43 63 57 112 90 124V0Z" fill="url(#dot-small)" opacity=".88"/>
+    <path d="M0 115c88 61 133 29 219 65 64 27 126 68 227 33 36-13 79-7 105 16-107 23-143 23-217 1-97-28-185-5-334 63Z" fill="url(#dot-small)" opacity=".77"/>
+  </g>
+</svg>

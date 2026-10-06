@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Camada_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 1336">
-  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
-  <defs>
+<svg id="Camada_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="423 407 520 520"><defs>
     <path id="path" d="M844.3,590.2c42.97,89.08,5.59,196.13-83.49,239.1-89.08,42.97-196.13,5.59-239.1-83.49-42.97-89.08-5.59-196.13,83.49-239.1,89.08-42.97,196.13-5.59,239.1,83.49Z"/>
   </defs>
   <text>
-    <textPath startOffset="4345.71%" xlink:href="#path"><tspan style="font-family: BootzyTM, &apos;Bootzy TM&apos;; font-size: 52.75px;"><tspan x="0" y="0">ÚNICO HOTEL EXCLUSIVO PARA ADULTOS EM PORTO </tspan></tspan>
+    <textPath startOffset="4345.71%" xlink:href="#path"><tspan style="font-family: Bootzy; font-size: 52.75px;"><tspan x="0" y="0">ÚNICO HOTEL EXCLUSIVO PARA ADULTOS EM PORTO </tspan></tspan>
     </textPath></text>
-  <text transform="translate(560.43 741.89)" style="font-family: BootzyTM, &apos;Bootzy TM&apos;; font-size: 234.72px;"><tspan x="0" y="0">18+</tspan></text>
+  <text transform="translate(560.43 741.89)" style="font-family: Bootzy; font-size: 234.72px;"><tspan x="0" y="0">18+</tspan></text>
   <path d="M489.68,681.02l2.9,5.53,6.08,1.4c2.11.49,2.48,3.34.56,4.34l-5.53,2.9-1.4,6.08c-.49,2.11-3.34,2.48-4.34.56l-2.9-5.53-6.08-1.4c-2.11-.49-2.48-3.34-.56-4.34l5.53-2.9,1.4-6.08c.49-2.11,3.34-2.48,4.34-.56Z"/>
   <circle cx="683" cy="668" r="247.32" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 9px;"/>
 </svg>
